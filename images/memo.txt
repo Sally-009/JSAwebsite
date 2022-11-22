@@ -1,0 +1,19 @@
+金閣寺
+https://illustkun.com/kinkakuji/
+
+JSA バナーに使うやつ
+font-family: 'Montserrat', sans-serif;
+
+canva
+バナーの素材
+
+色
+#7cbce1 ... 水色
+#fa2929 ... 淡い赤, タイトル背景の丸
+#09090E ... 青みのある黒, 背景画像
+#f8f9f0 ... 白
+
+フォント
+Montserrat	ナビ、JSA文字
+Tenor Sans	見出し
+forum		本文

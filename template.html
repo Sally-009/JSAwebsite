@@ -1,0 +1,86 @@
+<!-- 
+Name:  Saori Kojima
+Program Description: template.html
+Date: 11/6/2022 - 11/21/2022
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>JSA: Home</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/styles.css">
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Forum&family=Montserrat:wght@700&family=Tenor+Sans&display=swap" rel="stylesheet">
+    <!-- favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="favicon_io/site.webmanifest">
+</head>
+<body>
+
+    <div id="container">
+
+    <!-- Mobile View -->
+	<header class="mobile">
+        <a class="menu-icon" onclick="hamburger()">
+            <div>&#9776;</div>
+        </a>
+        <h1 class="mobile nav-box">Japanese Student Association</h1>
+	</header>
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="special.html">Special</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+        </div>
+    </nav>
+
+    <!-- Desktop View -->
+    <header class="tablet">
+        <h1 class="mobile nav-box">Japanese Student Association</h1>
+        <a href="index.html"><img src="images/mobile_img/banner.png" alt="banner"></a>
+	</header>
+    <nav class="tablet-desktop">
+        <ul>
+        <li><a href="index.html">Home</a></li>
+		<li><a href="about.html">About Us</a></li>
+		<li><a href="gallery.html">Gallery</a></li>
+		<li><a href="special.html">Special</a></li>
+		<li><a href="contact.html">Contact Us</a></li>
+        </ul>
+	</nav>
+
+    <img class="desktop" id="hero-img" src="images/temple.png" alt="Temple">
+
+	<!-- the main content of the webpage -->
+	<main>
+        <div id="content">
+
+            <h2>Template</h2>
+            <p>This is the content.</p>
+
+        </div>
+	</main>
+	
+	<!-- webpage footer content -->
+	<footer>
+        <p>&copy; Copyright 2022. All Rights Reserved.</p>
+        <a href="borrow.html"><p>Borrowed Illustrations</p></a>
+	</footer>
+
+    </div>
+
+    <!-- Script Declaration -->
+    <script src="scripts/script.js"></script>
+</body>
+</html>
