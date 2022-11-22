@@ -1,6 +1,8 @@
 # JSAwebsite
 This is a fictional Website of Japanese Student Association.
 
+https://sally-009.github.io/JSAwebsite/
+
 アピールポイント
 --------------
 これは学期末プロジェクトにて制作した架空の日本人留学生団体のホームぺージです。
