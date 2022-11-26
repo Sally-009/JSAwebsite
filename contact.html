@@ -80,22 +80,63 @@ Date: 11/6/2022 - 11/21/2022
 
                     <fieldset>
                         <p>
-                            <label for="name">Name: </label>
+                            <label for="name">*Name: </label>
                             <input class="bottom-line" type="text" name="name" id="name"
                                 placeholder="Enter your name here" maxlength="30" required>
                         </p>
+
+                        <fieldset>
+                            <legend>*Relation: </legend>
+                            <input type="radio" name="relation" id="atuStudent" value="atuStudent" required>
+                            <label for="atuStudent">ATU Student</label>
+
+                            <input type="radio" name="relation" id="atuFaculty" value="atuFaculty" required>
+                            <label for="atuFaculty">ATU Faculty</label>
+
+                            <input type="radio" name="relation" id="natuStudent" value="natuStudent" required>
+                            <label for="natuStudent">Non-ATU Student</label>
+
+                            <input type="radio" name="relation" id="natuFaculty" value="natuFaculty" required>
+                            <label for="natuFaculty">Non-ATU Faculty</label>
+
+                            <input type="radio" name="relation" id="others" value="others">
+                            <label for="others">Others</label>
+                        </fieldset>
+
                         <p>
-                            <label for="email">Email: </label>
+                            <label for="email">*Email: </label>
                             <input class="bottom-line" type="email" name="email" id="email"
                                 placeholder="Enter your email here" maxlength="30" required>
                         </p>
 
                         <p>
-                            <label for="comment">Comment: </label>
-                            <textarea name="comment" id="comment" cols="30" rows="4" maxlength="500"
+                            <label for="comment">*Comment: </label>
+                            <textarea name="comment" id="comment" rows="5" maxlength="500"
                                 required></textarea>
                         </p>
+
+                        <fieldset>
+                        <legend>How did you know JSA? Select All that Apply.</legend>
+                        <p>
+                            <input type="checkbox" name="howKnow" id="ads" value="ads">
+                            <label for="ads">Advertisement</label>
+                        </p>
+                            <input type="checkbox" name="howKnow" id="friends" value="friends">
+                            <label for="friends">Friends</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="howKnow" id="parents" value="parents">
+                            <label for="parents">Parents</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" name="howKnow" id="teachers" value="teachers">
+                            <label for="teachers">Teachers</label>
+                        </p>
+                        </fieldset>
+
                     </fieldset>
+
+                    <p>*Required</p>
 
                     <div class="center">
                         <input type="reset" value="Reset" class="button">

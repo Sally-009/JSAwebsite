@@ -25,10 +25,12 @@ Date: 11/6/2022 - 11/21/2022
 
     <!-- Special Style Rule -->
     <style>
-        #content{
-            margin-top: 0;
-            margin-bottom: 0;
-            height: 25vh;
+        @media screen and (min-width: 1015px), print{
+            #content{
+                margin-top: 0;
+                margin-bottom: 0;
+                height: 25vh;
+            }
         }
     </style>
 
@@ -82,23 +84,36 @@ Date: 11/6/2022 - 11/21/2022
         <div id="content">
 
             <h2>Recent Update</h2>
-            <Table>
+            <Table class="update-table">
+                <thead>
+                    <tr>
+                        <th rowspan="2">Date</th>
+                        <th>Event Name</th>
+                        <th>Location</th>
+                    </tr>
+                    <tr>
+                        <th colspan="2">News</th>
+                    </tr>
+                </thead>
                 <tbody>
                     <tr>
                         <td>11/20/2022</td>
-                        <td>JSA Website Updated</td>
+                        <td colspan="2">JSA Website Updated</td>
                     </tr>
                     <tr>
                         <td>11/15/2022</td>
-                        <td>Japan Night Coming Soon!</td>
+                        <td>Japan Night</td>
+                        <td>SU 102</td>
                     </tr>
                     <tr>
                         <td>10/21/2022</td>
-                        <td>Conversation Club Start</td>
+                        <td>Conversation Club</td>
+                        <td>BAZ 201</td>
                     </tr>
                     <tr>
                         <td>10/9/2022</td>
-                        <td>Meeting This Wednesday</td>
+                        <td>Meeting</td>
+                        <td>COR 232</td>
                     </tr>
                 </tbody>
             </Table>

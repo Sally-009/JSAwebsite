@@ -126,6 +126,10 @@ input.bottom-line, textarea{
     border-bottom: 2px solid #000;
 }
 
+textarea{
+    width: 90%;
+}
+
 /* Style rules for class and id selectors */
 .nav-box{
     padding: 15px;
@@ -174,8 +178,12 @@ input.bottom-line, textarea{
 }
 
 #goods-container figure{
-    margin: 20px auto;
-    height: 100%;
+    display: flex;
+
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
 }
 
 #photos{
@@ -200,6 +208,20 @@ input.bottom-line, textarea{
     padding: 3%;
 }
 
+table.update-table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.update-table thead{
+    background-color: gray;
+}
+
+.update-table td, .update-table th{
+    border: #09090E 1px solid;
+    text-align: center;
+}
+
 table.member-table{
     width: 100%;
 
@@ -209,7 +231,7 @@ table.member-table{
     border-top: #09090E solid 3px;
     border-bottom: #09090E solid 3px;
 
-    border-collapse:collapse;
+    border-collapse: collapse;
 
     margin: auto;
 }
@@ -278,16 +300,6 @@ print {
         background-color: #f8f9f0;
         border: solid #f8f9f0;
         border-radius: 20px;
-    }
-
-    #goods-container{
-        display: grid;
-
-        grid-template-columns: 50% 50%;
-    }
-
-    #goods-container figure{
-        margin: 0 auto;
     }
 
     #photos{
